@@ -1,0 +1,14 @@
+.item{
+    opacity: linear-gradient(to bottom, #FDF41C00 0%, #FDF41C24 14%);
+    border-radius: 14px;
+}
+
+
+.before\:bg-gradient-border {
+  background-image: linear-gradient(to right, #FFD700, #FF8C00);
+}
+
+.before\:bg-clip-border {
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+}

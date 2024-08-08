@@ -1,0 +1,15 @@
+.underline-gradient {
+    position: relative;
+    display: inline-block;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -8px; /* Adjust as needed */
+        width: 100%;
+        height: 8px; /* Adjust as needed */
+        background: linear-gradient(to right, #FFF61E, #E785FF);
+        z-index: 1;
+    }
+}
